@@ -38,6 +38,7 @@ General
   - If you want to amend your last commit to the commit right before that:
     - `git rebase -i HEAD~2`
     - Change `pick` to `fixup` which will squash the two commits together using the older commit's message.
+  - **Note:** that there is an alias for these along with a whole bunch of other commands for git that Erez will give you that can be a=copy pasted into your git config to be used; I mistakenly thought they were bash aliases at first so.. It's not. Put it in git config.
   - [**Good Reading on Amending**](https://www.atlassian.com/git/tutorials/rewriting-history)
   - [**Good Reading on Rebasing**](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
