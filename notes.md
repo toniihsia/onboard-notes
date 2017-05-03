@@ -19,7 +19,7 @@ General
 - Commit as normal for new commits.
 - When pushing...
   - If you are behind, type the following commands:
-    - `git fetch -- all`
+    - `git fetch --all`
     - `git pull --rebase`
   - If you followed git config above, you can just git push.
 - If making changes to an old commit/task i.e. **amending an old commit**:
@@ -42,7 +42,9 @@ General
   - [**Good Reading on Amending**](https://www.atlassian.com/git/tutorials/rewriting-history)
   - [**Good Reading on Rebasing**](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
-
+### Editing Users in DB
+- `db.user.find().sort({_id: -1})[0]` finds most recent User to sign up.
+- `db.user.update({"_id" : ObjectId("5908f4c557d44c3c564eb936")}, {$set: {email_verified: true}})`
 ### Task Workflow
 - Receive Asana Task
 - Complete Task
