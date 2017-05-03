@@ -77,3 +77,8 @@ this.events = {
     }
   }
 ```
+![Notes from May 3](http://url/to/img.png)
+
+#### Pipe Selectors
+
+#### Sass
