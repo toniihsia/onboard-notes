@@ -23,7 +23,7 @@ this.ui = {
 - `this.events` is a hash of events to listen to.
 ```
 this.events = {
-  'typeOfEvent @element': 'fn',
+  'typeOfEvent @UIelement': 'fn',
   'typeOfEvent [name-of-data-js]': 'fn'
 }
 ```
@@ -77,7 +77,7 @@ this.events = {
     }
   }
 ```
-![Notes from May 3](http://url/to/img.png)
+![Notes from May 3](/pics/05-03-2017)
 
 #### Pipe Selectors
 
